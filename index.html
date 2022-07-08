@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Project Random Password Genrateur</h1>
+        <div class="container">
+            <h2>Genrate a 
+                <br><span>random password</span>
+            </h2>
+            <p>Never use an inscure password again.</p>
+            
+
+            <div id="container">
+                <div class="inner-container">
+                    <div class="toggle">
+                        <p> Without Symbols and Numbers</p>
+                    </div>
+                    <div class="toggle">
+                        <p>With Symbols and Numbers</p>
+                    </div>
+                </div>
+                <div class="inner-container" id='toggle-container'>
+                    <div class="toggle">
+                        <p> Without Symbols and Numbers</p>
+                    </div>
+                    <div class="toggle">
+                        <p>With Symbols and Numbers</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <button class="btn" onclick="genratePassword()">Generate passwords</button>
+            <input type="text" placeholder=" Lentgh of your password" id="myInput"> 
+            <hr>
+
+            <div class="passwordOne" id="passwordOne">
+            </div>
+            <div class="passwordTwo" id="passwordTwo"></div>
+
+            <button class="button-9" role="button" onclick="copyPassowrd1()" id="copy1">Copy password 1</button>
+            <button class="button-9" role="button" onclick="copyPassword2()" id="copy2">Copy password 2</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
